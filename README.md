@@ -1,2 +1,0 @@
-# cisco-isp-telecom-portfolio
-
