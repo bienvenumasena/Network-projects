@@ -6,7 +6,7 @@ Enterprise Redundant HQ & Centralized Services
 
 📡 Core Infrastructure Architecture
 
-This module documents the deployment of a highly available, redundant two-building corporate campus linked across a simulated high-speed internet WAN backbone.
+This project documents the deployment of a highly available, redundant two-building corporate campus linked across a simulated high-speed internet WAN backbone.
 • Gateway Redundancy (HSRP): Configured two Layer 3 switches to share a single virtual IP gateway. Provides sub-second automatic traffic failover if a primary hardware chassis loses power, maintaining active corporate sessions seamlessly.
 • Centralized Security (VLAN 100): Segmented core network services (DHCP, DNS, and HTTP Web Servers) into a hardened server-cluster neighborhood, isolating critical resources from general employee access layers.
 • Cross-Boundary Bootstrapping (DHCP Relay): Implemented DHCP Relay Agents (ip helper-address) across distribution boundaries. Intercepts Layer 2 configuration broadcasts from remote subnets, converting them into target unicast frames to fetch dynamic leases from the central server pool.
