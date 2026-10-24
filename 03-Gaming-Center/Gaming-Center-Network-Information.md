@@ -4,35 +4,35 @@
 
 ==========================================================================================================================
 
-DEVICE TYPE  | DEVICE NAME     | IP ADDRESS      | PORT / INTERFACE
+DEVICE TYPE  | DEVICE NAME          | IP ADDRESS      | PORT / INTERFACE
 
 =========+=====================+=================+========================================================================
 
-Server       | GAMING-SERVER   | 192.168.17.2    | FastEthernet 0 (Hosted inside VLAN 17 Server Network)
+Server       | GAMING-PUBLIC-SERVER| 192.168.17.2    | FastEthernet 0 (Hosted inside VLAN 17 SERVICES Network)
 
 \------------+-----------------+-----------------+------------------------------------------------------------------------
 
-Router       |ISP-R            | 192.168.17.1    | FastEthernet 0/0 (Local Server Gateway Link)
+Router       | GAMING-ISP-R        | 192.168.17.1    | FastEthernet 0/0 (Local SERVICES Gateway Link)
 
 \------------+-----------------+-----------------+------------------------------------------------------------------------
 
-Router       | EDGE-R          | 192.168.209.1   | FastEthernet 0/0 (Point-to-Point Layer 3 Routed WAN Uplink)
+Router       | GAMING-EDGE-R       | 192.168.209.1   | FastEthernet 0/0 (Point-to-Point Layer 3 Routed WAN Uplink)
 
 \------------+-----------------+-----------------+------------------------------------------------------------------------
 
-L3 Switch    | L3-SW           | 192.168.209.254 | Interface VLAN 209 (Active SVI Core Management Frame Gateway)
+L3 Switch    | GAMING-L3-SW        | 192.168.209.254 | Interface VLAN 209 (Active SVI Core MANAGEMENT Frame Gateway)
 
 \------------+-----------------+-----------------+------------------------------------------------------------------------
 
-Switch       | ACCESS-SW1      | 192.168.209.10  | Interface VLAN 209 (Active SVI Local Stack Switch Management)
+Switch       | GAMING-ACCESS-SW1   | 192.168.209.10  | Interface VLAN 209 (Active SVI Local Switch MANAGEMENT Plane)
 
-Switch       | ACCESS-SW2      | 192.168.209.11  | Interface VLAN 209 (Active SVI Local Stack Switch Management)
+Switch       | GAMING-ACCESS-SW2   | 192.168.209.11  | Interface VLAN 209 (Active SVI Local Switch MANAGEMENT Plane)
 
 \------------+-----------------+-----------------+------------------------------------------------------------------------
 
-Access Point | AP1             | DHCP Assigned   | Access Port Link Mapped to VLAN 16 (Marketing / Guest WiFi)
+Access Point | GAMING-ACCESS-AP1   | DHCP Assigned   | Access Port Link Connected to GAMING-ACCESS-SW1 (VLAN 16 GUEST-WIFI)
 
-Access Point | AP2             | DHCP Assigned   | Access Port Link Mapped to VLAN 16 (Marketing / Guest WiFi)
+Access Point | GAMING-ACCESS-AP2   | DHCP Assigned   | Access Port Link Connected to GAMING-ACCESS-SW2 (VLAN 16 GUEST-WIFI)
 
 ==========================================================================================================================
 
@@ -48,13 +48,13 @@ VLAN ID  | DEPARTMENT NAME     | NETWORK             | DEFAULT-GATEWAY
 
 =========+=====================+=====================+====================================================================
 
-VLAN 14  | IT                  | 192.168.14.0/24     | 192.168.14.1
+VLAN 14  | GAMING              | 192.168.14.0/24     | 192.168.14.1
 
-VLAN 15  | CUSTOMER-SERVICE    | 192.168.15.0/24     | 192.168.15.1
+VLAN 15  | STAFF               | 192.168.15.0/24     | 192.168.15.1
 
-VLAN 16  | MARKETING           | 192.168.16.0/24     | 192.168.16.1
+VLAN 16  | GUEST-WIFI          | 192.168.16.0/24     | 192.168.16.1
 
-VLAN 17  | SERVERS             | 192.168.17.0/24     | 192.168.17.1
+VLAN 17  | SERVICES            | 192.168.17.0/24     | 192.168.17.1
 
 VLAN 209 | MANAGEMENT          | 192.168.209.0/24    | 192.168.209.1
 
@@ -77,6 +77,4 @@ STAFF:    ISAGI
 &#x20;         RIN
 
 ==========================================================================================================================
-
-
 
