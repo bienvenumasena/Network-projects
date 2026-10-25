@@ -6,10 +6,6 @@ Welcome to the network infrastructure. This repository contains the complete net
 
 
 
-
-
-==========================================================================================================================
-
 &#x20;                                          🗺️ Project Directories \& Setup Guides:
 
 ==========================================================================================================================
@@ -29,8 +25,6 @@ Project 4    | Law Firm Setup      | Law Firm \& Phone Lines (Privacy-first offi
 Project 5    | Retail Store Setup  | Secure Retail Store \& Payment Registers (Hardened storefront network designed to protect checkout devices).
 
 =========================================================================================================================
-
-==========================================================================================================================
 
 &#x20;                                           On going projects:
 
