@@ -8,11 +8,9 @@ Welcome to the network infrastructure. This repository contains the complete net
 
 &#x20;                                          🗺️ Project Directories \& Setup Guides:
 
-==========================================================================================================================
+
 
 PROJECT NAME | SYSTEM ENVIRONMENT  | DEPLOYMENT ROLE
-
-=========+=====================+==========================================================================================
 
 Project 1    | Main Office Setup   | Main Corporate Headquarters (Building A: Six-department local enterprise switching fabric).
 
@@ -28,11 +26,7 @@ Project 5    | Retail Store Setup  | Secure Retail Store \& Payment Registers (H
 
 &#x20;                                           On going projects:
 
-==========================================================================================================================
-
 PROJECT NAME | SYSTEM ENVIRONMENT  | DEPLOYMENT ROLE
-
-=========+=====================+==========================================================================================
 
 Project 6    | Multi-Site Network  | The Master Campus Fusion Core (Fusion of Project 1-5,integrating firewalls and add AD domain controllers).
 
