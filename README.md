@@ -24,7 +24,7 @@ Project 4    | Law Firm Setup      | Law Firm \& Phone Lines (Privacy-first offi
 
 Project 5    | Retail Store Setup  | Secure Retail Store \& Payment Registers (Hardened storefront network designed to protect checkout devices).
 
-=========================================================================================================================
+
 
 &#x20;                                           On going projects:
 
@@ -39,8 +39,6 @@ Project 6    | Multi-Site Network  | The Master Campus Fusion Core (Fusion of Pr
 AD Project   | Virtual Machines    | Enterprise Active Directory Domain Server (Managing all client (Project 6) endpoints and permissions).
 
 Linux Server | CentOS Stream       | Red Hat Certified System Administrator (RHCSA) Dedicated Environment.
-
-==========================================================================================================================
 
 
 
