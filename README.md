@@ -1,42 +1,24 @@
-\# 🌐 Bienvenu Networks \& Security Corporate Portfolio
+&#x20;   🌐 Bienvenu Networks \& Security Portfolio.
 
 
 
-Welcome to the network infrastructure engineering vault. This repository contains the complete network blueprints, system setups, and friendly directories for my multi-site business campus.
+Welcome to the network infrastructure. This repository contains the complete network blueprints, system setups, and friendly directories for my multi-site network.
 
 
 
-\### 🗺️ Master Project Directories \& Campus Setup Guides:
+&#x20;   🗺️ Project Directories \& Setup Guides:
 
 
 
-\*   🏢 \*\*\[Module 1: Main Corporate Headquarters (Building A)](./Enterprise-Network-Information.md)\*\*
+&#x20;   🏢  Project 1: Main Corporate Headquarters:(Enterprise-Network)
 
-\*   ☕ \*\*\[Module 2: The Local Coffee Shop Storefront](./Coffee-Shop-Network-Information.md)\*\*
+&#x20;   ☕  Project 2: The Local Coffee Shop:(Coffee-Shop-Network)
 
-\*   🎮 \*\*\[Module 3: High-Performance Gaming Center LAN](./Gaming-Center-Network-Information.md)\*\*
+&#x20;   🎮  Project 3: Gaming Center:(Gaming-Center-Network)
 
-\*   ⚖️ \*\*\[Module 4: Professional Law Firm \& Phone Lines](./Law-Firm-Network-Information.md)\*\*
+&#x20;   ⚖️  Project 4: Law Firm \& Phone Lines:(Law-Firm-Network)
 
-\*   🛍️ \*\*\[Module 5: Secure Retail Store \& Payment Registers](./Retail-Store-Network-Information.md)\*\*
-
-
-
-\---
-
-
-
-\## 🖼️ Master Infrastructure Topology Map
-
-
-
-Below is the synchronized high-resolution architectural layout showing how all our separate company buildings are wired up and connected together:
-
-
-
-!\[Master Campus Architecture Map](./Bienvenu-Networks-Security-topology.png)
-
-
+&#x20;   🛍️  Project 5: Secure Retail Store \& Payment Registers:(Retail-Store-Network)
 
 
 
